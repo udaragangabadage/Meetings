@@ -66,12 +66,54 @@ a{
 }
 
 .btnOne{
-    border: white 2px;
+    border: white 2px solid;
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+}
+
+.btnTwo{
+    background-color: #1F2122;
+    border-radius: 100px;
+    padding: 0.6em 1.7 em;
+    display: block;
+    width: 160px;
+    margin-top: 40px;
+    text-align: center
 }
 
 
 /*----- Landing -----*/
+.nav{
+    padding-top: 3em;
+}
 
+.pages {
+    float: right;
+    text-align: right;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 160px;
+    vertical-align: middle;
+}
+
+.landingWrapper{
+    width: 88%;
+    margin: auto;
+    
+}
+.landingContent{
+    width: 88%;
+    margin: 150px auto 0 auto;
+    display: flex
+}
 
 
 /*----- Features -----*/
