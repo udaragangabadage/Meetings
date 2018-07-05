@@ -126,6 +126,7 @@ flex: 0 0 55%;
 }
 
 .iphoneHand{
+/*    position: fixed;*/
     width: 420px;
     margin-top: -55px;
 }
