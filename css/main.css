@@ -137,7 +137,33 @@ flex: 0 0 55%;
 } 
 
 /*----- Features -----*/
+.date{
+    position: absolute;
+    top:150px;
+    left: 11%;
+    
+}
 
+.time{
+    position: absolute;
+    bottom:90px;
+    right: 15%;
+}
+
+.date h1, .date img, .time h1, .time img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.date img, .time img{
+    margin-bottom: 10px;
+    width: 36px;
+}
+
+.date p, .time p{
+    display: block;
+    margin-left: 44px;
+}
 
 
 /*----- Groups -----*/
