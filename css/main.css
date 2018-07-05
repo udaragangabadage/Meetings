@@ -1,5 +1,24 @@
 /*----- Global -----*/
-
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%; 
+    vertical-align: baseline; 
+    background: transparent; 
+} 
+ 
+html{ 
+    font-family: Avenir; 
+} 
+ 
+.landing{ 
+    background-image: url(../images/bg_01.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+     
+} 
 
 
 /*----- Landing -----*/
