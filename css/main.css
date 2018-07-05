@@ -125,7 +125,15 @@ flex: 0 0 55%;
     flex: 0 0 55%;
 }
 
+.iphoneHand{
+    width: 420px;
+    margin-top: -55px;
+}
 
+.contentLeft h1, .contentLeft p, .contentLeft a {
+    color: white;
+    text-decoration: none;
+} 
 
 /*----- Features -----*/
 
